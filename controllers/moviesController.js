@@ -1,5 +1,5 @@
-const db = require('../database/models')
-const provinciasRequest = require('../requests/provincias')
+const db = require('../database/models');
+const provinciasRequest = require('../requests/provincias');
 
 module.exports = {
     getAll: function(req, res) {
